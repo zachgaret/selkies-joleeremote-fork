@@ -1,5 +1,9 @@
 # selkies-joleeremote-fork
 
+<p align="center">
+  <img src="https://raw.githubusercontent.com/Joleeconsultants/joleeremote/main/public/apple-touch-icon.png" alt="Jolee Remote" width="128" height="128" />
+</p>
+
 **This is not the product.**
 
 The real project is **[Jolee Remote](https://github.com/Joleeconsultants/joleeremote)** — a public Cloudflare Durable Objects hop for browser↔agent session pairing (mint, pair, opaque frames/input, hibernation, TTL, teardown), using a modified **Selkies UI** as session chrome.
