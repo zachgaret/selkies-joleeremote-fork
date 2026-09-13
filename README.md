@@ -1,21 +1,22 @@
-![Selkies](/docs/assets/logo/horizontal.svg)
+# selkies-joleeremote-fork
 
-[![Build](https://github.com/selkies-project/selkies/actions/workflows/ci.yaml/badge.svg)](https://github.com/selkies-project/selkies/actions/workflows/ci.yaml)
-[![License: MPL 2.0](https://img.shields.io/badge/License-MPL%202.0-brightgreen.svg)](https://opensource.org/licenses/MPL-2.0)
-[![Docs](https://img.shields.io/badge/docs-docs.selkies.io-blue)](https://docs.selkies.io/)
-[![Discord](https://img.shields.io/badge/dynamic/json?logo=discord&label=Discord%20Members&query=approximate_member_count&url=https%3A%2F%2Fdiscordapp.com%2Fapi%2Finvites%2FwDNGDeSW5F%3Fwith_counts%3Dtrue)](https://discord.gg/wDNGDeSW5F)
-[![Ask DeepWiki](https://deepwiki.com/badge.svg)](https://deepwiki.com/selkies-project/selkies)
+**This is not the product.**
 
-**Moonlight, Google Stadia, or GeForce NOW in noVNC form factor for Linux X11 and Wayland, in any HTML5 web interface you wish to embed inside, with at least 60 frames per second on Full HD resolution.**
+The real project is **[Jolee Remote](https://github.com/Joleeconsultants/joleeremote)** — browser↔agent session pairing on Cloudflare Durable Objects (public hop), with the private product at [joleeremote.com](https://github.com/Joleeconsultants/joleeremote.com).
 
-**We are in need of maintainers and community contributors. Please consider stepping up, as we can never have too much help!**
+## What this repo is
 
-Selkies is an open-source low-latency high-performance Linux-native GPU/CPU-accelerated HTML5 remote desktop streaming platform, for self-hosting, containers, Kubernetes, or Cloud/HPC platforms, [started out first by Google engineers](https://web.archive.org/web/20210310083658/https://cloud.google.com/solutions/gpu-accelerated-streaming-using-webrtc), then open-sourced and developed by academic researchers, [LinuxServer.io](https://www.linuxserver.io), and community contributors. It streams over plain WebSockets by default, with WebRTC available as an opt-in transport.
+A personal fork of upstream [selkies-project/selkies](https://github.com/selkies-project/selkies), kept roughly in sync with Selkies `main` as a **nice-to-have** reference (Selkies dashboard/chrome inspiration for JR).
 
-Selkies is designed for researchers studying Agentic AI, Graphical AI, Robotics, Autonomous Driving, Drug Discovery technologies, SLURM supercomputer or HPC system administrators, Jupyter, Kubernetes, Docker®, Coder infrastructure administrators, and Linux cloud gaming enthusiasts.
+We are **not** actively developing or shipping from here. Do not open product work against this fork — use `Joleeconsultants/joleeremote` instead.
 
-While designed for clustered or unprivileged containerized environments, Selkies can also be deployed in desktop computers, and any performance issue that would be problematic in cloud gaming platforms is also considered a bug.
+## Upstream
 
-The HTML5 client runs on Chromium, Firefox, and Safari, with two-way clipboard (text and images), low-latency zero-copy video rendering, automatic GPU selection, resilient keyboard, mouse, and gamepad input, and microphone and webcam forwarding into the session.
+- Upstream: https://github.com/selkies-project/selkies  
+- License: MPL-2.0 (see `LICENSE`) — original work © Selkies contributors  
+- Docs: https://docs.selkies.io/
 
-**[Read the Documentation](https://docs.selkies.io/) to get started.** The [Settings Reference](https://docs.selkies.io/settings) lists every current setting. [Licensing](https://docs.selkies.io/licensing) inventories the third-party components of an installation, with their licenses and where the GPL pieces come from.
+## Jolee Remote
+
+- Public hop / framework: https://github.com/Joleeconsultants/joleeremote  
+- Homepage (repo description): Durable Objects session pairing for remote desktop (mint, pair browser + outbound agent WebSocket, opaque frames/input, hibernation, TTL, teardown)
