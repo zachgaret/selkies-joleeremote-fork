@@ -1,8 +1,6 @@
 # selkies-joleeremote-fork
 
-<p align="center">
-  <img src="https://raw.githubusercontent.com/Joleeconsultants/joleeremote/main/public/apple-touch-icon.png" alt="Jolee Remote" width="128" height="128" />
-</p>
+![Jolee Remote](https://raw.githubusercontent.com/Joleeconsultants/joleeremote/main/public/apple-touch-icon.png)
 
 **This is not the product.**
 
