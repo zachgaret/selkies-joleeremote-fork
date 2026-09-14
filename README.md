@@ -1,6 +1,8 @@
 # selkies-joleeremote-fork
 
-![Jolee Remote](https://raw.githubusercontent.com/Joleeconsultants/joleeremote/main/public/apple-touch-icon.png)
+![Jolee Remote](https://raw.githubusercontent.com/Joleeconsultants/joleeremote/main/docs/assets/jolee-remote.png)
+
+![Jolee Remote session UI](https://raw.githubusercontent.com/Joleeconsultants/joleeremote/main/docs/assets/session-ui.png)
 
 **This is not the product.**
 
